@@ -5,6 +5,9 @@ description = "Cirando blog seguin o livro django5 by examples"
 authors = ["Vlamidir Serra <vladimirmaciel@gmail.com>"]
 license = "NIT"
 readme = "README.md"
+packages = [
+    {include = "mysite"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
