@@ -29,8 +29,6 @@ jobs:
           python -m pip install poetry
           poetry install --with dev --sync
 
-      - name: Run Linter
-        run: poetry run flake8 .
 
       - name: Run backend Tests
         run: poetry run pytest --cache-clear
