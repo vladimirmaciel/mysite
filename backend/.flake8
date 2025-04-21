@@ -4,6 +4,7 @@ exclude =
     .venv,
     __pycache__,
     build,
+    migrations,
     dist
 max-complexity = 10
 max-line-length = 120
