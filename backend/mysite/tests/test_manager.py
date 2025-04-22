@@ -13,12 +13,12 @@ def test_user_has_customize_manager_instance():
     """
     User = get_user_model()
     assert isinstance(User.objects, UserManager)
-
+    
 
 @pytest.mark.django_db()
 def test_user_creation_with_lower_case_email():
     """
-    Testa se o email do usuário é salvo em letras minúsculas
+    Testa se o email do usuário é salvo em letras minúsculas.
     """
     User = get_user_model()
     email = "TESTE@EMAIL.COM"
